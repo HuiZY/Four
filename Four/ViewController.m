@@ -10,16 +10,21 @@
 
 @interface ViewController ()
 -(void)teacher;
+-(void)canyouspeakenglish;
 @end
-
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self teacher];
+    [self canyouspeakenglish];
 }
 -(void)teacher{
     NSLog(@"teacher is a good mean ");
+}
+-(void)canyouspeakenglish{
+    NSLog(@"can you speak english ");
 }
 
 - (void)didReceiveMemoryWarning {
