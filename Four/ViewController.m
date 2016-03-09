@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+-(void)teacher;
 @end
 
 @implementation ViewController
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+-(void)teacher{
+    NSLog(@"teacher is a good mean ");
 }
 
 - (void)didReceiveMemoryWarning {
